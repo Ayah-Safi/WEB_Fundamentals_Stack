@@ -1,0 +1,70 @@
+body * {
+    box-sizing: border-box;
+}
+
+.main-container {
+    height:275px;
+    width:558px;
+    border: 2px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.header-container{
+    background-color: #14A3B8;
+    position: relative;
+    height: 70px;
+
+}
+.body-container{
+    background-color: white;
+    padding-top: 14px;
+    padding-left: 15px;
+    height: 230px;
+    font-family: 'Lato', sans-serif;
+}
+
+.map-icon {
+    height:14px;
+    width: 13px;
+}
+
+.gear-icon {
+    height:16px;
+    width: 16px;
+}
+
+.img {
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 31px;
+    left: 17px;
+    border: 2px solid #a9c4c8;
+    border-radius: 50%;
+}
+
+.country {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: -8px;
+    margin-top:-9px;
+}
+
+h1 {
+   margin-bottom:0;
+}
+
+.line1{
+    margin-top:2px;
+    margin-bottom: 0px;
+}
+
+.line2{
+
+    margin-top:2px;
+    margin-bottom: 0px;
+}

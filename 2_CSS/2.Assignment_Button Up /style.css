@@ -1,0 +1,42 @@
+.search {
+    display: block;
+    margin:20px;
+    border-radius: 25px;
+    border-color: rgb(19, 163, 115);
+    color:rgb(19, 163, 115);
+    border-style: solid;
+    width: 100px;
+    height: auto;
+    font-size:small;
+    text-align: center;
+
+}
+
+.plus {
+    display: block;
+    margin:20px;
+    background-color: rgb(19, 163, 115);
+    border-radius: 50%;
+    border-color: rgb(19, 163, 115);
+    color:white;
+    border-style: solid;
+    width: auto;
+    height: auto;
+    font-size:small;
+    text-align: center;
+    
+}
+
+.create {
+    display: block;
+    margin:20px;
+    background-color: blue;
+    border-color: black;
+    color:white;
+    border-style: solid;
+    width: auto;
+    height: auto;
+    font-size:small;
+    text-align: center;
+    box-shadow: 1px 2px black;
+}

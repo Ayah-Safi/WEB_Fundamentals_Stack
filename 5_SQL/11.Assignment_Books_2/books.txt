@@ -1,0 +1,77 @@
+1- creat five authors 
+
+insert into authors (name,created_at,updated_at)
+value ("jane Austan",now(),now()),("Emily dickinson",now(),now()),("Fyord Dostoevsky",now(),now()),("willim shakespear",now(),now()),("lau Tzu",now(),now());
+
+2- add books 
+
+insert into books (title,created_at,updated_at)
+value ("c sharp",now(),now()),("Java",now(),now()),("Python",now(),now()),("PHP",now(),now()),("Ruby",now(),now());
+
+3- change C sharp into C# 
+
+update books 
+set title = "c# "
+where title ="c sharp" ;
+
+4- change name id-4 to bell 
+
+update authors
+set name = "Bell"
+where id = 4 ;
+
+5-Have the first author favorite the first 2 books
+
+insert into	favorrities (author_id,book_id)
+value(1,1),(1,2);
+
+
+6- Have the second author favorite the first 3 books
+
+insert into	favorrities (author_id,book_id)
+value(2,1),(2,2),(2,3);
+
+7- Have the third author favorite the first 4 books
+
+insert into	favorrities (author_id,book_id)
+value(3,1),(3,2),(3,3),(3,4);
+
+8-Have the fourth author favorite all the books
+
+insert into	favorrities (author_id,book_id)
+value(4,1),(4,2),(4,3),(4,4),(4,5);
+
+9-Retrieve all the authors who favorited the 3rd book
+
+select * from books
+ join favorrities on books.id = favorrities.book_id
+ join authors on authors.id = favorrities.author_id
+ where books.id = 3 ;
+
+10-Remove the first author of the 3rd book's favorites
+
+delete  from favorrities 
+where book_id=3 limit 1 ;
+
+11-Add the 5th author as an other who favorited the 2nd book
+
+insert into favorrities (author_id,book_id)
+value (5,2);
+
+12-Find all the books that the 3rd author favorited
+
+select * from books 
+join  favorrities on books.id= favorrities.book_id 
+join authors on authors.id = favorrities.author_id 
+
+where author_id= 3 ;
+
+13-Query: Find all the authors that favorited to the 5th book
+
+select * from authors 
+join favorrities on authors.id = favorrities.author_id
+join books on books.id= favorrities.book_id 
+ 
+
+where book_id= 5 ;
+

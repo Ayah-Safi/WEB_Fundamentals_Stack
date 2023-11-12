@@ -1,0 +1,50 @@
+.parent-container{
+    background-color: whitesmoke;
+    display:inline-block;
+    align-items: center;
+    border-top: 5px solid black;
+    height: 720px;
+    width:780;
+}
+
+.headr-container{
+    text-align: center;
+    font-size: 40px;
+}
+
+.imgs-container{
+    display: block;
+    margin: 20px;
+}
+
+.section1{
+    background-color: aqua;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.section2{
+    background-color: pink;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section3{
+    background-color: antiquewhite;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.img{
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+}
+.footer{
+    text-align: center;
+}

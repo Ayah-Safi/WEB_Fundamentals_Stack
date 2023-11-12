@@ -1,0 +1,142 @@
+.main-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Comic Neue', cursive;
+    max-width: 500px;
+
+}
+
+.main-container .nav-bar-container {
+    background-color: #C1C1C1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.nav-bar-container input {
+    height: 15px;
+    width: 250px;
+    margin: 10px, 0px;
+    border: 2px solid black;
+
+}
+
+.nav-bar-container button {
+    height: 20px;
+    border: 2px solid black;
+    text-align: center;
+    color: white;
+    background-color: #2A78E4;
+    font-family: 'Comic Neue', cursive;
+    box-shadow: 3px 3px black;
+
+}
+
+.main-container .body-container {
+    background-color: white;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.body-container .left-side {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.body-container .right-side {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    padding: 11px;
+
+}
+
+.box {
+    border: 1.5px solid black;
+}
+
+.ninja {
+    display: flex;
+    flex-direction: row;
+    padding-right: 25px;
+    ;
+    gap: 20px;
+}
+
+.ninja .left-txt {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+
+}
+
+.ninja .right-txt {
+    text-align: left;
+    padding-top: 25px;
+    flex: 1;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.left-txt .line1 {
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+.left-txt .line2 {
+    font-size: 14px;
+
+}
+
+.left-txt .line3 {
+    font-size: 10px;
+
+}
+
+.left-txt .line4 {
+    background-color: #FFD966;
+    border: 1px solid black;
+    font-size: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-align: center;
+    box-shadow: 2px 2px black;
+    padding: 2px;
+}
+
+.right-txt .blue-txt {
+ color: #5485B3;
+ text-decoration: underline;
+}
+
+
+
+.dojonary .txt1 {
+    font-weight: 550;
+}
+
+.dojonary .bold-txt{
+    font-weight: 900;
+}
+
+.dojonary button {
+    background-color: #92C47C;
+    border: 1px solid black;
+    font-size: 12px;
+    text-align: center;
+    box-shadow: 3px 3px black;
+    width: 111px;
+    padding: 2px;
+    font-weight: 900;
+    font-family: 'Comic Neue', cursive;
+
+}

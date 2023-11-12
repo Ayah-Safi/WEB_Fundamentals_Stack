@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker Assignment</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Lato:wght@100;300;400;700;900&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="nav-bar-container">
+            <h1>Dojonary</h1>
+            <input type="text" name="srch-input" id="srch" placeholder="Search">
+            <button class="btn" onclick="changeTxt(this)">Login</button>
+        </div>
+        <div class="body-container">
+            <div class="left-side">
+                <div class="ninja ninja-1 box">
+                    <div class="left-txt">
+                        <span class="line1">ninja</span>
+                        <span class="line2">noun</span>
+                        <span class="line3">Plural: ninjas</span>
+                        <button class="line4" onclick="displayMessage(this)">13 likes</button>
+                    </div>
+                    <div class="right-txt">
+                        <div>
+                            A practitioner skilled in the <span class="blue-txt">Japanese</span> art of <span class="blue-txt">ninjutsu</span>
+                        </div>
+                    </div>    
+                </div>
+
+                <div class="ninja ninja-2 box">
+                    <div class="left-txt">
+                        <span class="line1">ninja</span>
+                        <span class="line2">noun</span>
+                        <span class="line3">Plural: ninjas</span>
+                        <button class="line4" onclick="displayMessage(this)">37 likes</button>
+                    </div>
+                    <div class="right-txt">
+                        <div>
+                            <span>A <span class="blue-txt">programmer</span> who breaks</span> <span>down problems with <span class="blue-txt">zen</span>-like</span> <span>focus</span>
+                        </div>
+                    </div> 
+                        
+                </div>
+            </div>    
+            <div class="right-side box">
+                <div class="dojonary">
+                    <p class="txt1">Dojonary is defined by <span class="bold-txt">YOU</span></p>
+                    <button class="txt2" onclick="removeElemnt(this)">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </div> 
+</body>
+
+</html>
